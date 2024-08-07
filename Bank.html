@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       let a=prompt("Loan Amount");
+       let b=prompt("Annual Income");
+       let c=prompt("Credit Score");
+       let d=Number((1/2)*b);
+  
+       alert(d);
+
+       if(b>=40000)
+       {
+        if(c>=600)
+       {
+        if( a==d || a<=d)
+        alert("Loan granted");
+    else
+    alert("Loan rejected");
+       }
+       else
+       alert("Insufficent Credit Score");
+       }
+       else
+       alert("Insufficent Annual Income");
+    //    let a=+prompt("Enter a value");
+    // //    let b=+prompt("Enter a value");
+    //    let c=(a/100)*50;
+    //    alert(c);
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+
+ <!-- Triangle principle:
+  3 sides sum=180deg
+  out of which one must be 90deg -->
+    <script>
+      let a = +prompt("Angle 1");
+      alert(a);
+      let b = +prompt("Angle 2");
+      alert(b);
+      let c = +prompt("Angle 3");
+      alert(c);
+      let res = a + b + c;
+      alert(res);
+      if (res == 180) {
+        if (a == 90 || b == 90 || c == 90) {
+          alert("triangle");
+        } else {
+          alert("Not a perfect triangle");
+        }
+      } else alert("Not a triangle");
+      
+    </script>
+  </body>
+</html>
